@@ -68,9 +68,6 @@ void Johnson(int *a,int *b,int n){
     cout<<"\nMachine_2 total = "<<totalB;
 }
 
-
-
-
 int main()
 {
     int n,*a,*b;
