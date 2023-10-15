@@ -78,4 +78,6 @@ int main()
     readFile(a,n,ifs); 
     readFile(b,n,ifs);    
     Johnson(a,b,n);
+    ifs.close();
+    return 0;
 } 

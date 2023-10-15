@@ -96,6 +96,6 @@ int main() {
     for (int i = 0; i < N; i++) {
         cout << "Apex " << i << ": Color " << colors[i] << endl;
     }
-
+    ifs.close();
     return 0;
 }

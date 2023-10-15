@@ -36,4 +36,5 @@ int main(){
     ifs >> n;
     readFile(jobslist,n,ifs);
     Schedule(jobslist);
+    ifs.close();
 }

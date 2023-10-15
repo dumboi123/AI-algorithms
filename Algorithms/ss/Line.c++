@@ -78,4 +78,6 @@ int main(){
     //Greedy_2 => increaseLength
     //Greedy_3 => increaseRight
     Greedy_1_2_3(LineList,increaseRight);
+    ifs.close();
+    return 0;
 }
