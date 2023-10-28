@@ -4,7 +4,7 @@
 #include<math.h>
 #include<algorithm>
 using namespace std;
-
+// 2 machines work together, only when A done then B can do
 struct Line
 {
     int leftP;
@@ -43,14 +43,12 @@ void Schedule_finish_jobs(vector<Line> &LineList){
     {
         cout<< newlist[i].leftP <<" "<<newlist[i].rightP<<endl;
     }
-    
-   
 }
 
 int main(){
     int n;
     vector<Line> LineList;
-    ifstream ifs("schedule1.txt");
+    ifstream ifs("test.txt");
     ifs >> n;
     readFile(LineList,n,ifs);
     Schedule_finish_jobs(LineList);
